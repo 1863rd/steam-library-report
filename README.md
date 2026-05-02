@@ -1,2 +1,84 @@
-# steam-library-report
-A local Python tool that generates a clean HTML report of installed Steam games and storage usage.
+# Steam Library Report Generator
+
+A small local tool that generates a clean HTML report from installed Steam games.
+
+It is meant to be simple: run one command, open one HTML file, and get a readable overview of the Steam libraries found on the computer.
+
+## Quick start
+
+### Windows
+
+Double-click:
+
+```txt
+run.bat
+```
+
+Or run:
+
+```bash
+python generate_report.py
+```
+
+### Linux / macOS
+
+```bash
+python3 generate_report.py
+```
+
+The script generates this file in the same folder:
+
+```txt
+steam_library_report.html
+```
+
+## What it scans
+
+```txt
+steamapps/libraryfolders.vdf
+steamapps/appmanifest_*.acf
+userdata/*/config/localconfig.vdf
+```
+
+## Features
+
+- Detects the Steam installation automatically
+- Scans multiple Steam library folders
+- Lists installed games
+- Shows total storage used
+- Shows the largest installed games
+- Shows local playtime data when available
+- Generates a standalone HTML dashboard
+- Can optionally export JSON
+
+## If Steam is not detected
+
+Run with the Steam path manually:
+
+```bash
+python generate_report.py --steam "C:\Program Files (x86)\Steam"
+```
+
+## Optional JSON export
+
+```bash
+python generate_report.py --json
+```
+
+This also creates:
+
+```txt
+steam_library_report.json
+```
+
+## Suggested GitHub description
+
+```txt
+A small Python tool that generates a local HTML dashboard for installed Steam games and storage usage.
+```
+
+## Suggested topics
+
+```txt
+steam python gaming dashboard steam-library vdf parser windows local-tool html-report
+```
