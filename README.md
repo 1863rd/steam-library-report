@@ -70,15 +70,3 @@ This also creates:
 ```txt
 steam_library_report.json
 ```
-
-## Suggested GitHub description
-
-```txt
-A small Python tool that generates a local HTML dashboard for installed Steam games and storage usage.
-```
-
-## Suggested topics
-
-```txt
-steam python gaming dashboard steam-library vdf parser windows local-tool html-report
-```
