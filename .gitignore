@@ -1,14 +1,5 @@
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-.venv/
-venv/
-env/
 
 steam_library_report.html
 steam_library_report.json
-
-.DS_Store
-Thumbs.db
