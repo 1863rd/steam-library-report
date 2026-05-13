@@ -1,6 +1,6 @@
 # Steam Library Report Generator
 
-A small local tool that generates an HTML report from installed Steam games.
+Small local tool that generates an HTML report from installed Steam games.
 
 ## Quick start
 
